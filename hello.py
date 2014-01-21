@@ -6,7 +6,6 @@ while not name:
     name = raw_input("No really, what's your name? ").strip()
 
 wc = word_count(name)
-cc = name_length(name)
-
+cc = name_length(name)+1
 print "Hello, " + name + "."
 print "You have a {}-word name with {} characters.".format(wc, cc)
